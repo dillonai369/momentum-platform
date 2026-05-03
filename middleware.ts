@@ -13,7 +13,7 @@ const isPublicRoute = createRouteMatcher([
 ]);
 
 /**
- * Tenant resolution: map the request's host (e.g. momentummarketing.io,
+ * Tenant resolution: map the request's host (e.g. momentumarketing.io,
  * bullpen.example.com, localhost:3000) to a tenant slug, then attach it as
  * a request header that server components / route handlers can read.
  *
@@ -28,9 +28,9 @@ function resolveTenantSlug(host: string | null): string {
 
   // Hardcoded mapping — replace with DB lookup when 2nd tenant goes live
   const map: Record<string, string> = {
-    "momentummarketing.io": "momentum",
-    "www.momentummarketing.io": "momentum",
-    "app.momentummarketing.io": "momentum",
+    "momentumarketing.io": "momentum",
+    "www.momentumarketing.io": "momentum",
+    "app.momentumarketing.io": "momentum",
     "localhost": "momentum",
     "127.0.0.1": "momentum",
   };

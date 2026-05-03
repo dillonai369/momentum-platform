@@ -356,7 +356,7 @@ values (
   'momentum',
   'Momentum Marketing',
   'Momentum',
-  'momentummarketing.io',
+  'momentumarketing.io',
   '#7C3AED',
   '#2563EB'
 )

@@ -26,9 +26,9 @@ Single source of truth for everything Dillon needs to do to get the portal live.
 
 ## 3. Cloudflare
 
-- cloudflare.com → sign up → "Add a site" → `momentummarketing.io`
+- cloudflare.com → sign up → "Add a site" → `momentumarketing.io`
 - Change registrar's nameservers to Cloudflare's (they show you), OR register/transfer through Cloudflare Registrar (cheapest)
-- "My Profile" → "API Tokens" → "Create Token" → "Edit zone DNS" template, scoped to momentummarketing.io zone
+- "My Profile" → "API Tokens" → "Create Token" → "Edit zone DNS" template, scoped to momentumarketing.io zone
 - Save and send the token
 
 ---
@@ -63,7 +63,7 @@ Single source of truth for everything Dillon needs to do to get the portal live.
 
 - resend.com → sign up → API Keys → "Full access" → create
 - Send the key
-- Domain verification (momentummarketing.io DNS records) happens after step 3 is live
+- Domain verification (momentumarketing.io DNS records) happens after step 3 is live
 
 ---
 
@@ -103,7 +103,7 @@ Before the portal can render anything, the database tables need to exist. **Two 
 
 - "Add New Project" → import `momentum-platform` repo
 - Paste `.env.local` values into Vercel's env vars settings
-- Add custom domain: `momentummarketing.io`
+- Add custom domain: `momentumarketing.io`
 - Vercel gives DNS records → paste into Cloudflare DNS panel
 
 ---
@@ -129,7 +129,7 @@ Before the portal can render anything, the database tables need to exist. **Two 
 
 ## Momentum Brand Reference
 
-- **Domain:** momentummarketing.io (Cloudflare)
+- **Domain:** momentumarketing.io (Cloudflare)
 - **Palette:** white/black/silver foundation; `#7C3AED` purple + `#2563EB` blue accents
 - **First agent:** Ryan Heagney (H-E-A-G-N-E-Y)
 - **GHL sub-account name:** Momentum CRM
